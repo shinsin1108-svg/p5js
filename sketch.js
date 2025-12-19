@@ -104,8 +104,10 @@ function bricksDrawing1(){
       }
     }
   }
-  if (is_empty == 0)
+  if (is_empty == 0) {
     level++;
+    variableInitialization();
+  }
 }
 
 function bricksDrawing2() {  
@@ -120,8 +122,10 @@ function bricksDrawing2() {
       }
     }
   }
-  if (is_empty == 0)
+  if (is_empty == 0) {
     level++;
+    variableInitialization();
+  }
 }
 
 function bricksDrawing3(){
@@ -148,8 +152,10 @@ function bricksDrawing3(){
         is_empty++; 
       }
     }
-  if (is_empty == 0)
+  if (is_empty == 0) {
     level++;
+    variableInitialization();
+  }
 }
 
 
@@ -240,6 +246,7 @@ function preload() {
   bgm = loadSound("sounds/bgm.mp3");
   hitSound = loadSound("sounds/hit.mp3");
 }
+
 
 
 
