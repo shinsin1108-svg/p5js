@@ -237,7 +237,8 @@ function drawGameOver() {
 }
 
 function preload() {
-  bgm = loadSound("bgm.mp3");
-  hitSound = loadSound("hit.wav");
+  bgm = loadSound("sounds/bgm.mp3");
+  hitSound = loadSound("sounds/hit.wav");
 }
+
 
